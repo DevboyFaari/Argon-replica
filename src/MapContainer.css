@@ -1,0 +1,12 @@
+.map iframe{
+   
+    margin-top: 300px;
+    margin-left: 270px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.house{
+    
+}

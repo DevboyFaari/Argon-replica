@@ -1,0 +1,145 @@
+.tables{
+    margin-top: 300px;
+    margin-left: 280px;
+    position: absolute;
+    z-index: 1;
+
+        color: grey;
+        display: flex;
+        /* flex-direction: column; */
+        width: 73vw;
+        background-color: #fff;
+        background-clip: initial;
+        border: 1px solid rgba(0,0,0,.05);
+        border-radius: 0.375rem;
+    
+}
+
+.tables-2{
+    margin-top: 750px;
+    margin-left: 280px;
+    position: absolute;
+    z-index: 1;
+    background-color: #32325d;
+        color: grey;
+        display: flex;
+        /* flex-direction: column; */
+        width: 73vw;
+        
+        background-clip: initial;
+        border: 1px solid rgba(0,0,0,.05);
+        border-radius: 0.375rem;
+    
+}
+
+.tables-2 th{
+    background-color: #1C345D;
+    border:4px solid #1f3a68;
+    color: #4d7bca;
+
+}
+
+
+.tables-2 td {
+    background-color: #32325d;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.tables td{
+    padding: 15px;
+}
+
+.tables img{
+    cursor: pointer;
+
+}
+
+
+.progress-fill-a {
+    background-color: red;
+    width: 60%; 
+    height: 100%; 
+  }
+
+  .progress-fill-b {
+    background-color: green;
+    width: 100%; 
+    height: 100%; 
+  }
+
+
+  .progress-fill-c {
+    background-color: red;
+    width: 72%; 
+    height: 100%; 
+  }
+
+  .progress-fill-d {
+    background-color: #11cdef;
+    width: 90%; 
+    height: 100%; 
+  }
+
+  .progress-fill-e {
+    background-color: green;
+    width: 100%; 
+    height: 100%; 
+  }
+
+
+
+.red-dot {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .green-dot {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+  }
+
+  .blue-dot {
+    width: 5px;
+    height: 5px;
+    background-color: #11cdef;
+    border-radius: 50%;
+  }
+
+  
+
+
+
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px; 
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .image-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  

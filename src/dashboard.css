@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    
+}
+
+.argon{
+    width: 140px;
+    margin: 7px 50px;
+    
+}
+
+
+
+
+.vertical-nav{
+    width: 250px;
+    background-color: white;
+    color: gray;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-nav{
+    margin-top: 30px;
+}
+
+ul li{
+    margin: 4px;
+
+}
+
+
+.elements{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.input-field-container{
+    border-radius: 40px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin: 10px 250px 0 0;
+    text-align: center;
+
+}
+
+.search-icon {
+    color: white;
+    margin-right: -35px;
+    margin-top: 27px;
+  }
+
+  .profilepic{
+    width: 40px; /* Set the desired width and height for your circular image */
+    height: 40px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; 
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 170px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+  } 
+
+  .profile-name{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 35px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    cursor: pointer;
+    
+
+  }
+
+  .profile-content{
+    background-color: white;
+    margin-top: 35px;
+  position: absolute;
+  height: 260px;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  opacity: 1;
+  animation: move-content 0.2s;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+@keyframes move-content {
+    from {top: 100px;}
+    50% {top: 100px !important;} /* ignored */
+    to {top: 0px;}
+  }
+  
+
+.profile-content::before {
+    background: #fff;
+    box-shadow: none;
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    left: 150px;
+    position: absolute;
+    bottom: 100%;
+    transform: rotate(-45deg) translateY(12px);
+    border-radius: 2px;
+}
+  
+.profile-list{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+   
+}
+
+.profile-list a{
+    margin: 5px;
+    color: gray;
+    text-decoration: none;
+    padding: 3px;
+    
+
+}
+
+.profile-list a:hover{
+    background-color: #dae7e4;
+}
+
+.grid-container{
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: grid;
+    margin-right: 70px;
+    margin-top: 130px;
+    width: 1000px;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-auto-rows: minmax(10px, auto);
+    /* grid-template-rows: repeat(9, 9fr) ; */
+    grid-gap: 30px;
+    
+}
+
+.grid-container div{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: -7px;
+    
+
+}
+
+.one{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+
+
+.grid-details span{
+    margin-left: -75px;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+
+
