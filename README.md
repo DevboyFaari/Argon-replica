@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Argon-replica
+A clone of "demos.creative-tim.com/argon-dashboard-react", some weird React dashboard I found online. I've built it with React + ChartJS from scratch with Icons and images from FontAwesome and google respectively.
+>>>>>>> 43552bec45df6b7bf574d3d15566b832ea21f819
